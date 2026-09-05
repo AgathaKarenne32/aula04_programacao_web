@@ -5,7 +5,6 @@ export default function AppArte() {
   return (
     <View style={styles.container}>
 
-      {/* Primeira linha */}
       <View style={styles.row}>
 
         <View style={[styles.quadrante, { backgroundColor: '#F44336' }]}>
@@ -32,7 +31,6 @@ export default function AppArte() {
 
       </View>
 
-      {/* Segunda linha */}
       <View style={styles.row}>
 
         <View style={[styles.quadrante, { backgroundColor: '#4CAF50' }]}>
